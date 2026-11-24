@@ -1,0 +1,7 @@
+11b6c7e3c927df2658f513b6b68ea7f8929c62c5
+'Solution.mainTheorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Solution.mainTheoremApprox' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Solution.separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Solution.separationClosure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Solution.permanent_over_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT=0

@@ -1,0 +1,11 @@
+formal-math commit: 11b6c7e3c927df2658f513b6b68ea7f8929c62c5
+lean files outside .lake: 324
+pattern: #eval|run_cmd|initialize|elab|syntax|macro|Lean.Elab|Lean.Meta|native_decide|implemented_by|extern|unsafe|opaque|axiom|admit|sorry|skipKernelTC|debug.|import Lean
+matches:
+./Paper/Identity.lean:246:local macro "entries" : tactic => `(tactic| simp only [matM, blX, blY, blU, scal, scal', exch, Equiv.coe_fn_mk, submatrix_apply, Sum.elim_inl,
+./Challenge.lean:8:/-! What is claimed: the theorems of Solution.lean, with sorry in place of their proofs, for the tool Comparator.
+./Challenge.lean:18:  sorry
+./Challenge.lean:21:  sorry
+./Challenge.lean:24:  sorry
+./Challenge.lean:27:  sorry
+./Challenge.lean:31:  sorry

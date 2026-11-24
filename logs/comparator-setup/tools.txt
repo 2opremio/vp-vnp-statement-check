@@ -1,0 +1,13 @@
+Tool commits used:
+  comparator 575674928e239f5bc452aab72d1dd7b0f1326494
+  nanoda 68d5ca9db226849b41a6fff59d796ff19d0a8840
+  lean4export 15f6055e299ad5b89345e533cc2192f4cc00f659
+
+Pins in formal-math .github/scripts/comparator-check.sh (commit 11b6c7e3c927df2658f513b6b68ea7f8929c62c5):
+  COMPARATOR_COMMIT="${COMPARATOR_COMMIT:-575674928e239f5bc452aab72d1dd7b0f1326494}"
+  NANODA_COMMIT="${NANODA_COMMIT:-68d5ca9db226849b41a6fff59d796ff19d0a8840}"
+  lean4export: taken from the v4.33.1 tag, else v4.33.0 (v4.33.1 has none):
+  15f6055e299ad5b89345e533cc2192f4cc00f659	refs/tags/v4.33.0
+
+comparator-checked.json vs formal-math vp-vnp/comparator.json:
+  identical

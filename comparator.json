@@ -1,0 +1,18 @@
+{
+  "challenge_module": "BridgeChallenge",
+  "solution_module": "Bridge",
+  "theorem_names": [
+    "Bridge.bridge_main",
+    "Bridge.bridge_border",
+    "Bridge.bridge_sep",
+    "Bridge.bridge_closure",
+    "Bridge.bridge_real"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

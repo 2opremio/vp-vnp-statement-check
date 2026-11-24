@@ -1,0 +1,815 @@
+✔ [8707/9033] Built Nc.Cut.Slp (63s)
+✔ [8708/9033] Built Nc.Plus.Interface (63s)
+✔ [8709/9033] Built Nc.PermPad (64s)
+✔ [8710/9033] Built Nc.LowDegree (64s)
+✔ [8711/9033] Built Nc.Tow.Rank (64s)
+✔ [8712/9033] Built Nc.CaseI.Geo (64s)
+⚠ [8713/9033] Built Nc.Tow.Defs (64s)
+warning: Nc/Tow/Defs.lean:53:14: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8714/9033] Built Nc.Tape.Refine (64s)
+✔ [8715/9033] Built Nc.Cut.Units (64s)
+✔ [8716/9033] Built Nc.Cut.Play (64s)
+✔ [8717/9033] Built Nc.Sort.Radix (64s)
+✔ [8718/9033] Built Nc.Uni.Bin (64s)
+✔ [8719/9033] Built Nc.Tower.UT (64s)
+✔ [8720/9033] Built Ov.Duality.Abstract (65s)
+⚠ [8721/9033] Built Nc.Flag.Len (65s)
+warning: Nc/Flag/Len.lean:41:64: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Flag/Len.lean:42:5: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Flag/Len.lean:89:0: automatically included section variable(s) unused in theorem `Nc.Flag.dg_empty`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Nc/Flag/Len.lean:92:0: automatically included section variable(s) unused in theorem `Nc.Flag.dg_union`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8722/9033] Built Nc.Tower.Ring (65s)
+✔ [8723/9033] Built Nc.Tape.Rep (65s)
+✔ [8724/9033] Built Nc.Uni.PM (65s)
+✔ [8725/9033] Built Nc.Cat.Len (65s)
+✔ [8726/9033] Built Nc.Cat.Core (65s)
+✔ [8727/9033] Built Ov.Core.Tensor (32s)
+✔ [8728/9033] Built Nc.PermCoeff (34s)
+✔ [8729/9033] Built Statement (36s)
+✔ [8730/9033] Built Nc.Cross.Split (36s)
+✔ [8731/9033] Built NS1.Finite (37s)
+✔ [8732/9033] Built Nc.Acc.Line (37s)
+✔ [8733/9033] Built Nc.Plus.UnitBits (37s)
+✔ [8734/9033] Built Nc.Final.CClasses (38s)
+✔ [8735/9033] Built Nc.Tow.Path (37s)
+✔ [8736/9033] Built Independent (38s)
+✔ [8738/9033] Built NS1.Machine (38s)
+✔ [8739/9033] Built Nc.CaseI.Multi (38s)
+✔ [8740/9033] Built Nc.SlpCalc (38s)
+✔ [8741/9033] Built Nc.Cross.Meix (38s)
+✔ [8742/9033] Built Nc.Flag.Para (37s)
+✔ [8743/9033] Built Nc.Cut.Groups (38s)
+✔ [8744/9033] Built Nc.Tape.Rat (38s)
+✔ [8745/9033] Built Nc.Tower.Grp (38s)
+⚠ [8746/9033] Built Nc.Flag.Blow (39s)
+warning: Nc/Flag/Blow.lean:22:0: automatically included section variable(s) unused in theorem `Nc.Flag.inc_t_mul`:
+  [Fintype μ]
+  [Fintype κ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype μ] [Fintype κ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Nc/Flag/Blow.lean:26:0: automatically included section variable(s) unused in theorem `Nc.Flag.inc_mul_diag`:
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: Nc/Flag/Blow.lean:31:13: This simp argument is unused:
+  ite_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [one_mul, zero_mul, mul_ite, mul_one, mul_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Flag/Blow.lean:31:22: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ite_mul, zero_mul, mul_ite, mul_one, mul_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Flag/Blow.lean:31:31: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [ite_mul, one_mul, mul_ite, mul_one, mul_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Flag/Blow.lean:56:0: automatically included section variable(s) unused in theorem `Nc.Flag.blow_add`:
+  [DecidableEq μ]
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq μ] [Fintype ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+✔ [8747/9033] Built Nc.Cat.Space (8.1s)
+⚠ [8748/9033] Built Nc.Tow.Load (40s)
+warning: Nc/Tow/Load.lean:189:55: Variable name `hf` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hf
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8749/9033] Built Ov.Duality.Cert (10s)
+✔ [8750/9033] Built Nc.Cat.Prod (24s)
+✔ [8751/9033] Built Ov.Duality.PreSpec (24s)
+✔ [8752/9033] Built Nc.Cat.Mean (25s)
+✔ [8753/9033] Built Ov.Core.Basic (25s)
+✔ [8754/9033] Built NS1.Budget (25s)
+✔ [8755/9033] Built Nc.CaseI.Fkl (26s)
+✔ [8756/9033] Built Nc.Tape.Hat (25s)
+✔ [8757/9033] Built Nc.Grp.Steps (25s)
+✔ [8758/9033] Built Nc.PermGrid (27s)
+✔ [8759/9033] Built Nc.Tow.Slp0 (26s)
+✔ [8760/9033] Built Nc.Flag.Rank (24s)
+✔ [8761/9033] Built Paper.LowDegChains (27s)
+✔ [8762/9033] Built Nc.Flag.Transversal (26s)
+✔ [8763/9033] Built Nc.Tower.Layer (26s)
+✔ [8764/9033] Built Nc.Cross.Near (27s)
+✔ [8765/9033] Built Paper.Toolkit (15s)
+✔ [8766/9033] Built Ov.Core.Equi (21s)
+✔ [8767/9033] Built Nc.Cat.Window (22s)
+✔ [8768/9033] Built Nc.Cat.Length (24s)
+✔ [8769/9033] Built Nc.PermSum (26s)
+✔ [8770/9033] Built Nc.Tape.Loop (26s)
+✔ [8771/9033] Built NS1.Interp (27s)
+✔ [8772/9033] Built Nc.Flag.Num (26s)
+✔ [8773/9033] Built Nc.Tower.Chain (26s)
+✔ [8774/9033] Built Nc.Cross.Count (26s)
+⚠ [8775/9033] Built Paper.Heavy (27s)
+warning: Paper/Heavy.lean:143:57: Variable name `hM` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hM
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Paper/Heavy.lean:143:70: Variable name `hY` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hY
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8776/9033] Built Nc.Flag.Exchange (27s)
+✔ [8777/9033] Built Nc.Acc.LowDeg (27s)
+✔ [8778/9033] Built Nc.Tower.Words (27s)
+✔ [8779/9033] Built Nc.Cross.Psi (27s)
+⚠ [8780/9033] Built Nc.Flag.Uni (28s)
+warning: Nc/Flag/Uni.lean:127:10: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nc/Flag/Uni.lean:130:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nc/Flag/Uni.lean:141:8: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nc/Flag/Uni.lean:227:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: Nc/Flag/Uni.lean:247:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+✔ [8781/9033] Built Ov.Duality.Minimal (10s)
+✔ [8782/9033] Built Ov.Core.Spec (11s)
+✔ [8783/9033] Built Ov.Core.Network (11s)
+✔ [8784/9033] Built Nc.Flag.Act (25s)
+✔ [8785/9033] Built Nc.Tape.Task (15s)
+✔ [8786/9033] Built NS1.Eval (15s)
+✔ [8787/9033] Built Nc.PermValiant (15s)
+✔ [8788/9033] Built Nc.Tower.Coord (17s)
+✔ [8789/9033] Built Paper.HeavyProg (17s)
+✔ [8790/9033] Built Paper.States (18s)
+✔ [8791/9033] Built Nc.Cross.One (17s)
+✔ [8792/9033] Built Nc.Cross.Inv (17s)
+✔ [8793/9033] Built Nc.Flag.Block (18s)
+✔ [8794/9033] Built Nc.Tower.Diam (18s)
+⚠ [8795/9033] Built Nc.Flag.Words (18s)
+warning: Nc/Flag/Words.lean:36:28: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.mul_apply, Ne.symm h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Flag/Words.lean:46:28: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.mul_apply, Ne.symm h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Flag/Words.lean:61:12: This simp argument is unused:
+  lo_ne_hi'
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [f2_add_self, (lo_ne_hi' j).symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Flag/Words.lean:63:13: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h, Ne.symm h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Flag/Words.lean:210:9: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Flag/Words.lean:210:11: Variable name `j` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _j
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Flag/Words.lean:210:58: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8796/9033] Built Nc.Price.Cover (16s)
+✔ [8797/9033] Built Ov.Core.Unit (17s)
+✔ [8798/9033] Built Nc.Tape.Run (8.8s)
+✔ [8799/9033] Built Nc.Rate.Defs (8.2s)
+✔ [8800/9033] Built Nc.Sort.Runs (9.6s)
+✔ [8801/9033] Built NS1.EvalThm (11s)
+✔ [8802/9033] Built Nc.Cross.Ident (8.9s)
+✔ [8803/9033] Built Nc.Tower.Inst (10s)
+✔ [8804/9033] Built Nc.Tower.Base (9.3s)
+⚠ [8805/9033] Built Nc.Flag.Walk (9.5s)
+warning: Nc/Flag/Walk.lean:186:32: This simp argument is unused:
+  Matrix.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.one_apply, lo, hi, Fin.ext_iff, this]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8806/9033] Built Nc.WidePerm (21s)
+✔ [8807/9033] Built Nc.RunWord (22s)
+✔ [8808/9033] Built Paper.Tensors (22s)
+✔ [8809/9033] Built Nc.Sort.RunVal (21s)
+✔ [8810/9033] Built Nc.Sort.Words (21s)
+✔ [8811/9033] Built Nc.Tape.ProgRun (22s)
+✔ [8812/9033] Built Nc.Hc.Segments (23s)
+⚠ [8813/9033] Built Nc.Cut.Blocks (23s)
+warning: Nc/Cut/Blocks.lean:159:4: Unused tactic linter: `congr 2` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [8814/9033] Built Nc.Rate.Truncate (23s)
+✔ [8815/9033] Built NS1.Postpone (21s)
+✔ [8816/9033] Built Nc.Flag.Window (18s)
+✔ [8817/9033] Built Nc.Tower.Tower (19s)
+✔ [8818/9033] Built Nc.Cross.Data (21s)
+✔ [8819/9033] Built Paper.Identity (23s)
+✔ [8820/9033] Built Nc.FinDom (12s)
+✔ [8821/9033] Built Nc.RunGood (16s)
+✔ [8822/9033] Built Ov.Core.Wire (16s)
+✔ [8823/9033] Built Nc.Cut.Defs (16s)
+✔ [8824/9033] Built Nc.Uni.Alpha (16s)
+✔ [8825/9033] Built Nc.Hc.Grid (17s)
+✔ [8826/9033] Built Nc.Rate.Transfer (17s)
+✔ [8827/9033] Built Nc.Rate.Circuit (17s)
+✔ [8828/9033] Built NS1.ApproxAdd (16s)
+✔ [8829/9033] Built Paper.Gauges (18s)
+✔ [8830/9033] Built Nc.Flag.Avg (16s)
+✔ [8831/9033] Built NS1.Guess (18s)
+✔ [8832/9033] Built Nc.Price.Basic (16s)
+✔ [8833/9033] Built Nc.RunSum (17s)
+✔ [8834/9033] Built Nc.Price.BorderSum (16s)
+✔ [8835/9033] Built Nc.Cut.Codes (16s)
+✔ [8836/9033] Built Nc.Cut.Rows (17s)
+✔ [8837/9033] Built Nc.Flag.Main (15s)
+✔ [8838/9033] Built Paper.Transfer (17s)
+✔ [8839/9033] Built Paper.Extension (16s)
+✔ [8840/9033] Built Nc.Hc.Vnp (17s)
+✔ [8841/9033] Built NS1.Step (15s)
+✔ [8842/9033] Built Nc.Uni.SortU (21s)
+✔ [8843/9033] Built Paper.Grids (21s)
+✔ [8844/9033] Built Nc.Flag.Cases (8.9s)
+✔ [8845/9033] Built Nc.RunPerm (9.4s)
+✔ [8846/9033] Built Nc.Price.BorderFew (10s)
+✔ [8847/9033] Built Nc.Cut.StartA (10s)
+✔ [8848/9033] Built NS1.Accel (9.5s)
+✔ [8849/9033] Built Paper.Ryser (10s)
+✔ [8850/9033] Built Paper.Prices (11s)
+✔ [8851/9033] Built Paper.HcGrid (8.1s)
+✔ [8852/9033] Built Nc.Uni.CmpU (8.5s)
+✔ [8853/9033] Built Nc.RunOne (8.7s)
+✔ [8854/9033] Built Nc.End.Run (8.7s)
+✔ [8855/9033] Built Nc.Cut.StartB (10s)
+✔ [8856/9033] Built Paper.Postpone (11s)
+✔ [8857/9033] Built NS1.Comp (11s)
+✔ [8858/9033] Built Nc.Price.Network (10s)
+✔ [8859/9033] Built Nc.Price.Cross (11s)
+✔ [8860/9033] Built Nc.Uni.SpecU (10s)
+✔ [8861/9033] Built Nc.Uni.Rules (13s)
+✔ [8862/9033] Built Nc.RunMn (7.6s)
+✔ [8863/9033] Built Nc.Cut.Exact (8.7s)
+✔ [8864/9033] Built Nc.G.Defs (9.4s)
+✔ [8865/9033] Built NS1.Scale (10s)
+✔ [8866/9033] Built Nc.Price.Law (10s)
+✔ [8867/9033] Built Nc.Uni.SpecU2 (10s)
+✔ [8868/9033] Built NS1.Lists (11s)
+✔ [8869/9033] Built Nc.Uni.Det (10s)
+✔ [8870/9033] Built Nc.CaseI.Lower (13s)
+✔ [8871/9033] Built Nc.Cut.Facts (8.5s)
+✔ [8872/9033] Built Nc.G.RouteFacts (8.9s)
+⚠ [8873/9033] Built Nc.Tow.Relay (9.2s)
+warning: Nc/Tow/Relay.lean:24:29: Variable name `e` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _e
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Tow/Relay.lean:25:11: Variable name `ν` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ν
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Tow/Relay.lean:56:49: This simp argument is unused:
+  if_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [relTab, Fin.isValue, dite_true, one_ne_zero, dite_false, reduceDIte]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Tow/Relay.lean:56:83: This simp argument is unused:
+  reduceDIte
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [relTab, Fin.isValue, dite_true, if_true, one_ne_zero, dite_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8874/9033] Built Nc.G.Contract (9.2s)
+✔ [8875/9033] Built Paper.Crossing (19s)
+✔ [8876/9033] Built NS1.Diag (15s)
+✔ [8877/9033] Built NS1.Main (15s)
+✔ [8878/9033] Built Nc.Price.LawF (17s)
+✔ [8879/9033] Built Nc.Grp.PutDef (16s)
+✔ [8880/9033] Built NS1.Util (17s)
+✔ [8881/9033] Built NS1.Compose (17s)
+✔ [8882/9033] Built Nc.Grp.Lang (17s)
+✔ [8883/9033] Built Nc.CaseI.Hub (17s)
+✔ [8884/9033] Built Nc.Uni.EvalU (18s)
+✔ [8885/9033] Built Nc.Uni.Prog (20s)
+⚠ [8886/9033] Built Nc.Tow.Net (16s)
+warning: Nc/Tow/Net.lean:303:6: Variable name `x` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _x
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8887/9033] Built Nc.G.Move (16s)
+✔ [8888/9033] Built NS1.ApproxOrd (10s)
+✔ [8889/9033] Built Paper.Means (19s)
+✔ [8890/9033] Built Paper.Next (14s)
+✔ [8891/9033] Built Nc.Grp.PutSum (14s)
+✔ [8892/9033] Built Nc.Price.Norm (15s)
+✔ [8893/9033] Built NS1.Deal (17s)
+✔ [8894/9033] Built Nc.Acc.Trie (17s)
+✔ [8895/9033] Built Nc.Grp.Trans (17s)
+✔ [8896/9033] Built Nc.Acc.CompK (18s)
+⚠ [8897/9033] Built Nc.Tow.PlaceE (16s)
+warning: Nc/Tow/PlaceE.lean:23:7: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Tow/PlaceE.lean:23:9: Variable name `c` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _c
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8898/9033] Built Nc.Uni.EvThm (18s)
+✔ [8899/9033] Built Nc.Uni.Vals (17s)
+⚠ [8900/9033] Built Nc.Tow.Flow (18s)
+warning: Nc/Tow/Flow.lean:256:17: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Tow/Flow.lean:256:30: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Tow/Flow.lean:298:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+⚠ [8901/9033] Built NS1.OneCut (22s)
+warning: NS1/OneCut.lean:194:12: Unused tactic linter: `congr 2` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [8902/9033] Built Nc.Tow.FromPrice (8.0s)
+✔ [8903/9033] Built Paper.NoAcc (16s)
+✔ [8904/9033] Built Nc.G.PlayThm (23s)
+✔ [8905/9033] Built Paper.Fan (17s)
+✔ [8906/9033] Built NS1.ApproxRound (9.6s)
+⚠ [8907/9033] Built NS1.DSteps (10s)
+warning: NS1/DSteps.lean:179:16: This simp argument is unused:
+  DStep.tree
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [num]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NS1/DSteps.lean:271:63: This simp argument is unused:
+  and_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [reduceCtorEq, false_and, and_false, true_and, Tree.cons.injEq] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NS1/DSteps.lean:271:73: This simp argument is unused:
+  Tree.cons.injEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [reduceCtorEq, false_and, and_false, true_and, and_true] at h
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NS1/DSteps.lean:404:53: This simp argument is unused:
+  Tm.tree
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [num]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NS1/DSteps.lean:428:55: This simp argument is unused:
+  Tm.tree
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [num]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NS1/DSteps.lean:429:18: This simp argument is unused:
+  Tm.tree
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [num]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NS1/DSteps.lean:429:81: This simp argument is unused:
+  Tm.tree
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [num]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NS1/DSteps.lean:436:55: This simp argument is unused:
+  Tm.tree
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [num]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NS1/DSteps.lean:437:18: This simp argument is unused:
+  Tm.tree
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [num]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: NS1/DSteps.lean:437:81: This simp argument is unused:
+  Tm.tree
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [num]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8908/9033] Built Nc.Grp.Seg (10s)
+✔ [8909/9033] Built Nc.Acc.Loop (10s)
+✔ [8910/9033] Built Nc.Uni.Trace (9.9s)
+✔ [8911/9033] Built Nc.Uni.EvThm2 (11s)
+⚠ [8912/9033] Built Nc.Tow.Ends (9.8s)
+warning: Nc/Tow/Ends.lean:43:26: This simp argument is unused:
+  Prod.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Sym2.map_mk] at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Tow/Ends.lean:79:13: This simp argument is unused:
+  Prod.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [h1, h2]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Tow/Ends.lean:120:34: This simp argument is unused:
+  Prod.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Sym2.map_mk] at h2
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Tow/Ends.lean:154:28: This simp argument is unused:
+  Prod.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Sym2.map_mk] at h4
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8913/9033] Built Nc.Tow.FromPriceK (8.4s)
+⚠ [8914/9033] Built Nc.Tow.Load2 (10s)
+warning: Nc/Tow/Load2.lean:22:20: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Tow/Load2.lean:22:33: Variable name `hb` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hb
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Tow/Load2.lean:329:19: This simp argument is unused:
+  inpR_mid
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tgM] at hν
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Tow/Load2.lean:352:21: This simp argument is unused:
+  inpR_mid
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tgM] at hν
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Tow/Load2.lean:370:21: This simp argument is unused:
+  inpR_mid
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tgM] at hν
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Tow/Load2.lean:391:19: This simp argument is unused:
+  inpR_mid
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tgM] at hν
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8915/9033] Built NS1.ApproxScale (15s)
+✔ [8916/9033] Built Nc.G.Start (16s)
+✔ [8917/9033] Built NS1.Picks (16s)
+✔ [8918/9033] Built Nc.Grp.SegSum (16s)
+✔ [8919/9033] Built Nc.Grp.Put (16s)
+✔ [8920/9033] Built Nc.Acc.Prog (17s)
+✔ [8921/9033] Built Paper.Curvature (18s)
+✔ [8922/9033] Built Nc.Uni.Exist (16s)
+✔ [8923/9033] Built Nc.Uni.LenU (16s)
+✔ [8924/9033] Built Nc.Tow.Load3 (16s)
+⚠ [8925/9033] Built Nc.Tow.Plan (16s)
+warning: Nc/Tow/Plan.lean:75:79: Variable name `u` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _u
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Tow/Plan.lean:75:81: Variable name `v` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _v
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [8926/9033] Built Nc.Tow.Load0 (16s)
+✔ [8927/9033] Built Nc.Uni.EvThm3 (17s)
+✔ [8928/9033] Built NS1.ApproxExtract (11s)
+✔ [8929/9033] Built Nc.G.Exact (13s)
+✔ [8930/9033] Built NS1.Parts (17s)
+✔ [8931/9033] Built Nc.Dl.Names (17s)
+✔ [8932/9033] Built Nc.Price.Hyper (19s)
+✔ [8933/9033] Built Nc.Acc.Main (20s)
+✔ [8934/9033] Built Paper.Alternative (22s)
+✔ [8935/9033] Built Nc.Uni.TopU (21s)
+✔ [8936/9033] Built Nc.Tow.Load4 (22s)
+⚠ [8937/9033] Built Nc.Tow.Ok (22s)
+warning: Nc/Tow/Ok.lean:121:14: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Tow/Ok.lean:121:16: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Tow/Ok.lean:245:15: This simp argument is unused:
+  Prod.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pl.pt_base]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Nc/Tow/Ok.lean:272:42: This simp argument is unused:
+  Prod.map
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [inpZ, hT, pr, Sym2.map_mk]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8938/9033] Built Nc.Tow.Cards (22s)
+✔ [8939/9033] Built Nc.Tow.Slp1 (24s)
+✔ [8940/9033] Built Nc.Dl.Facts (15s)
+✔ [8941/9033] Built Nc.Grp.GrpSteps (16s)
+✔ [8942/9033] Built Nc.End.Thm (16s)
+✔ [8943/9033] Built Nc.CaseI.Cube (16s)
+✔ [8944/9033] Built Paper.LowDeg (16s)
+✔ [8945/9033] Built NS1.ApproxBack (16s)
+✔ [8946/9033] Built Paper.Lengths (21s)
+✔ [8947/9033] Built Nc.Tow.Tree (21s)
+✔ [8948/9033] Built Nc.Uni.Bounds (22s)
+✔ [8949/9033] Built Paper.Runnet (21s)
+✔ [8950/9033] Built Nc.Grp.Script (21s)
+✔ [8951/9033] Built Nc.Grp.GrpVal (22s)
+✔ [8952/9033] Built Nc.Tow.Cap (25s)
+✔ [8953/9033] Built Nc.Tow.Slp2 (26s)
+✔ [8954/9033] Built NS1.ApproxMain (17s)
+✔ [8955/9033] Built Nc.End.PermThm (18s)
+✔ [8956/9033] Built Paper.Convex (20s)
+✔ [8957/9033] Built Paper.ApproxRound (22s)
+✔ [8958/9033] Built Nc.Vp.Gen (18s)
+✔ [8959/9033] Built Nc.Tow.Ever1 (19s)
+✔ [8960/9033] Built Nc.Tow.EndA (19s)
+✔ [8961/9033] Built Paper.UniversalSteps (19s)
+✔ [8962/9033] Built Nc.Grp.Role (19s)
+✔ [8963/9033] Built Nc.Dl.Tab (19s)
+✔ [8964/9033] Built Nc.Tow.CapOk (18s)
+✔ [8965/9033] Built Nc.Dl.SizeScript (20s)
+✔ [8966/9033] Built Nc.Acc.ApproxMain (16s)
+✔ [8967/9033] Built Nc.Tow.Slp3 (22s)
+✔ [8968/9033] Built Nc.Vp.Main (13s)
+✔ [8969/9033] Built Nc.Tow.EndB (15s)
+⚠ [8970/9033] Built Nc.Tow.Ever2 (16s)
+warning: Nc/Tow/Ever2.lean:75:19: This simp argument is unused:
+  inpR_mid
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [tgM] at hν
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8971/9033] Built Paper.Groups (20s)
+✔ [8972/9033] Built Nc.Dl.Cost (15s)
+✔ [8973/9033] Built Nc.Dl.Code (16s)
+✔ [8974/9033] Built Nc.Dl.Phases (16s)
+✔ [8975/9033] Built Nc.Grp.RoleProg (17s)
+✔ [8976/9033] Built Nc.End.ApproxThm (16s)
+✔ [8977/9033] Built Nc.Tow.Slp5 (15s)
+✔ [8978/9033] Built Nc.Tow.EndC (14s)
+✔ [8979/9033] Built Nc.Tow.Ever3 (14s)
+✔ [8980/9033] Built Paper.Flat (21s)
+✔ [8981/9033] Built Nc.Grp.Base (10s)
+✔ [8982/9033] Built Nc.Dl.Run (12s)
+✔ [8983/9033] Built Nc.Tow.Slp4 (24s)
+✔ [8984/9033] Built Paper.Laws (18s)
+✔ [8985/9033] Built Nc.Tow.Ever4 (9.2s)
+✔ [8986/9033] Built Nc.Grp.BaseProg (9.5s)
+✔ [8987/9033] Built Nc.Dl.Run2 (9.5s)
+⚠ [8988/9033] Built Paper.CircuitPhi (11s)
+warning: Paper/CircuitPhi.lean:149:64: Variable name `hN` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hN
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Paper/CircuitPhi.lean:230:58: This simp argument is unused:
+  not_isEmpty_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [withInputs, fdLits, Finset.univ_eq_empty_iff, this]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: Paper/CircuitPhi.lean:230:75: This simp argument is unused:
+  this
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [withInputs, fdLits, Finset.univ_eq_empty_iff, not_isEmpty_iff]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+✔ [8989/9033] Built Nc.Tow.Ever6 (6.8s)
+✔ [8990/9033] Built Nc.Grp.SumSim (8.2s)
+✔ [8991/9033] Built Nc.Grp.Pack (9.0s)
+✔ [8992/9033] Built Nc.Dl.Scr (8.7s)
+✔ [8993/9033] Built Nc.Tow.Ever7 (6.9s)
+✔ [8994/9033] Built Nc.Grp.SumSeg (8.2s)
+✔ [8995/9033] Built Nc.Grp.SumRole (8.2s)
+✔ [8996/9033] Built Nc.Dl.Total (7.0s)
+✔ [8997/9033] Built Nc.Tow.Cst (6.4s)
+✔ [8998/9033] Built Nc.Grp.GroupProg (10s)
+✔ [8999/9033] Built Paper.Tower (6.7s)
+✔ [9000/9033] Built Nc.Dl.DealThm (8.5s)
+✔ [9001/9033] Built Nc.Grp.SumPut (6.5s)
+✔ [9002/9033] Built Nc.Grp.GrpTime (8.1s)
+✔ [9003/9033] Built Nc.Grp.SumBase (6.6s)
+⚠ [9004/9033] Built Nc.Dl.Cut (12s)
+warning: Nc/Dl/Cut.lean:153:64: Variable name `hnl` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnl
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: Nc/Dl/Cut.lean:153:86: Variable name `hnub` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnub
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9005/9033] Built Nc.Grp.StepBase (6.5s)
+warning: Nc/Grp/StepBase.lean:228:18: Variable name `hub` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hub
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+✔ [9006/9033] Built Paper.Tree (14s)
+✔ [9007/9033] Built Nc.Dl.Last (8.0s)
+✔ [9008/9033] Built Paper.Universal (8.2s)
+✔ [9009/9033] Built Nc.Dl.Bd1 (9.2s)
+✔ [9010/9033] Built Nc.Grp.StepRole (8.8s)
+✔ [9011/9033] Built Nc.Dl.SizeDeal (11s)
+✔ [9012/9033] Built Nc.Dl.Bd2 (6.8s)
+✔ [9013/9033] Built Paper.Circuit (8.2s)
+✔ [9014/9033] Built Nc.Grp.Group (6.7s)
+✔ [9015/9033] Built Nc.Grp.Facts (5.9s)
+✔ [9016/9033] Built Nc.Dl.Bd3 (6.9s)
+✔ [9017/9033] Built Nc.Grp.GroupThm (4.0s)
+✔ [9018/9033] Built Nc.Dl.Does (12s)
+✔ [9019/9033] Built Nc.Dl.Inst (5.8s)
+⚠ [9020/9033] Built Nc.Dl.Num0 (11s)
+warning: Nc/Dl/Num0.lean:57:8: exponent 300 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+warning: Nc/Dl/Num0.lean:60:34: exponent 300 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+warning: Nc/Dl/Num0.lean:75:53: exponent 261 exceeds the threshold 256, exponentiation operation was not evaluated, use `set_option exponentiation.threshold <num>` to set a new threshold
+⚠ [9021/9033] Built Paper.Pieces (52s)
+warning: Paper/Pieces.lean:34:12: Variable name `E` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _E
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [9022/9033] Built Nc.Dl.GrpCost (16s)
+warning: Nc/Dl/GrpCost.lean:51:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: Nc/Dl/GrpCost.lean:111:20: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: Nc/Dl/GrpCost.lean:111:20: Unused tactic linter: `congr 1` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+✔ [9023/9033] Built Paper.Cuts (13s)
+✔ [9024/9033] Built Paper.Scales (6.1s)
+✔ [9025/9033] Built Paper.ApproxScales (9.3s)
+✔ [9026/9033] Built Paper.Rate (12s)
+✔ [9027/9033] Built Paper.Fields (4.8s)
+✔ [9028/9033] Built Paper.Approximate (5.3s)
+✔ [9029/9033] Built Solution (4.4s)
+ℹ [9030/9033] Built Bridge (5.2s)
+info: Bridge.lean:412:0: 'Bridge.bridge_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bridge.lean:413:0: 'Bridge.bridge_border' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bridge.lean:414:0: 'Bridge.bridge_sep' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bridge.lean:415:0: 'Bridge.bridge_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Bridge.lean:416:0: 'Bridge.bridge_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [9032/9033] Built Check (4.1s)
+info: Check.lean:10:0: 'Bridge.bridge_main' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Check.lean:11:0: 'Bridge.bridge_border' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Check.lean:12:0: 'Bridge.bridge_sep' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Check.lean:13:0: 'Bridge.bridge_closure' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: Check.lean:14:0: 'Bridge.bridge_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (9033 jobs).
+      604.60 real      1734.92 user      3947.50 sys
